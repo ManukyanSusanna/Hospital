@@ -1,0 +1,119 @@
+CREATE TABLE IF NOT EXISTS physician (
+   employee_id integer NOT NULL,
+   name varchar(50) NOT NULL,
+   position varchar(50) NOT NULL,
+   ssn varchar(50) NOT NULL,
+   PRIMARY KEY (employee_id)
+);
+
+CREATE TABLE IF NOT EXISTS department (
+  department_id integer NOT NULL,
+  name varchar(100) NOT NULL,
+  head integer REFERENCES physician(employee_id),
+  PRIMARY KEY (department_id)
+);
+
+CREATE TABLE IF NOT EXISTS affiliated_with (
+  physician integer REFERENCES physician(employee_id),
+  department integer REFERENCES department(department_id),
+  primary_affiliation BOOLEAN NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS procedure (
+  code integer NOT NULL,
+  name varchar(100) NOT NULL,
+  cost REAL NOT NULL,
+  PRIMARY KEY(code)
+);
+
+CREATE TABLE IF NOT EXISTS trained_in (
+  physician integer REFERENCES physician(employee_id),
+  treatment integer REFERENCES procedure(code),
+  certification_date timestamp NOT NULL,
+  certification_expires timestamp NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS patient (
+  ssn varchar(50) NOT NULL,
+  name varchar(50) NOT NULL,
+  address varchar(100) NOT NULL,
+  phone varchar(50) NOT NULL,
+  insurance_id integer NOT NULL,
+  pcp integer REFERENCES physician(employee_id),
+  PRIMARY KEY (ssn)
+);
+
+CREATE TABLE IF NOT EXISTS nurse (
+  employee_id integer NOT NULL,
+  name varchar(50) NOT NULL,
+  position varchar(100) NOT NULL,
+  ssn varchar(50) NOT NULL,
+  PRIMARY KEY (employee_id)
+);
+
+CREATE TABLE IF NOT EXISTS appointment (
+  appointment_id integer NOT NULL,
+  patient varchar(50) REFERENCES patient(ssn),
+  prep_nurse integer REFERENCES nurse(employee_id),
+  physician integer REFERENCES physician(employee_id),
+  start_time timestamp NOT NULL,
+  end_time timestamp NOT NULL,
+  examination_room varchar(50) NOT NULL,
+  PRIMARY KEY (appointment_id)
+);
+
+CREATE TABLE IF NOT EXISTS medication (
+  code integer NOT NULL,
+  name varchar(150) NOT NULL,
+  brand varchar(150) NOT NULL,
+  description varchar(150) NOT NULL,
+  PRIMARY KEY (code)
+);
+
+CREATE TABLE IF NOT EXISTS prescribes (
+  physician integer REFERENCES physician(employee_id),
+  patient varchar(50) REFERENCES patient(ssn),
+  medication integer REFERENCES medication(code),
+  date timestamp NOT NULL,
+  appointment integer REFERENCES appointment(appointment_id),
+  dose varchar(50) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS block (
+  block_id integer NOT NULL,
+  floor integer NOT NULL,
+  code integer NOT NULL,
+  PRIMARY KEY (block_id)
+);
+
+CREATE TABLE IF NOT EXISTS room (
+  number integer NOT NULL,
+  block_floor_code integer REFERENCES block(block_id),
+  unavailable BOOLEAN NOT NULL,
+  PRIMARY KEY (number)
+);
+
+CREATE TABLE IF NOT EXISTS on_call (
+  nurse integer REFERENCES nurse(employee_id),
+  block_floor_code integer REFERENCES block(block_id),
+  start_time timestamp NOT NULL,
+  end_time timestamp NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS stay (
+  stay_id integer NOT NULL,
+  patient varchar(50) REFERENCES patient(ssn),
+  room integer REFERENCES room(number),
+  start_time timestamp NOT NULL,
+  end_time timestamp NOT NULL,
+  PRIMARY KEY (stay_id)
+);
+
+CREATE TABLE IF NOT EXISTS undergoes  (
+  patient varchar(50) REFERENCES patient(ssn),
+  procedure integer REFERENCES procedure(code),
+  stay integer REFERENCES stay(stay_id),
+  date timestamp NOT NULL,
+  physician integer REFERENCES physician(employee_id),
+  assisting_nurse integer REFERENCES nurse(employee_id)
+);
