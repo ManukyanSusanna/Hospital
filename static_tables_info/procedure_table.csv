@@ -1,0 +1,11 @@
+code,name,cost
+1,Appendectomy,10500
+2,Cataract Surgery,18000
+3,C-Section,24000
+4,CT Scan,21000
+5,Echocardiogram,19000
+6,Heart Bypass Surgery,16000
+7,Hip Replacement Surgery,22000
+8,MRI,19000
+9,Upper Endoscopy,8000
+10,X-Ray,15000

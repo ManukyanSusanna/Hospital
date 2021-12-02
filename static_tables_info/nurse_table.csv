@@ -1,0 +1,201 @@
+employee_id,name,position,ssn
+1,Tod Angell,Advanced practice registered nurses (APRNs),804-14-2489
+2,Aldis Lisett,Licensed practical nurse (LPN),172-02-0785
+3,Tiphanie Steely,Nursing assistant (CNA),768-40-4655
+4,Bancroft Mouat,Nursing assistant (CNA),405-42-3888
+5,Olenolin Rallinshaw,Advanced practice registered nurses (APRNs),171-02-1502
+6,Dalenna Franz,Licensed practical nurse (LPN),272-62-9893
+7,Rutledge Thorington,Licensed practical nurse (LPN),614-49-6905
+8,Braden Pyatt,Licensed practical nurse (LPN),242-40-3525
+9,Rivkah Panketh,Nursing assistant (CNA),504-54-3562
+10,Riki Enderson,Registered nurse (RN),357-37-1980
+11,Tory Novic,Nursing assistant (CNA),466-92-3536
+12,Donella Nanetti,Licensed practical nurse (LPN),151-57-0397
+13,Meridith Attenborrow,Registered nurse (RN),490-17-7365
+14,Reg Banck,Licensed practical nurse (LPN),855-31-5098
+15,Amby Stronach,Advanced practice registered nurses (APRNs),399-84-5104
+16,Paco Havenhand,Advanced practice registered nurses (APRNs),101-58-0223
+17,Natalina Koop,Advanced practice registered nurses (APRNs),675-01-9315
+18,Vonnie Ferris,Nursing assistant (CNA),461-80-0622
+19,Beale Gribben,Registered nurse (RN),812-29-6352
+20,Derby Laterza,Nursing assistant (CNA),703-81-7838
+21,Antonia Housaman,Advanced practice registered nurses (APRNs),153-22-0035
+22,Brian Digginson,Nursing assistant (CNA),254-39-7758
+23,Elfreda Berzen,Licensed practical nurse (LPN),469-28-0920
+24,Jervis Pentecost,Registered nurse (RN),243-91-3833
+25,Anica Charnick,Registered nurse (RN),299-14-7900
+26,Crawford Farmloe,Advanced practice registered nurses (APRNs),773-21-1865
+27,Sheilah Kobu,Advanced practice registered nurses (APRNs),535-08-9581
+28,Conn Grimmett,Registered nurse (RN),363-28-8695
+29,Clarita Bestwerthick,Licensed practical nurse (LPN),493-73-9812
+30,Gregory Dunsmuir,Nursing assistant (CNA),196-31-1158
+31,Christopher Poncet,Licensed practical nurse (LPN),623-39-0014
+32,Baird Kahen,Advanced practice registered nurses (APRNs),367-21-8710
+33,Miof mela Lange,Registered nurse (RN),180-76-4509
+34,Maureen Gras,Licensed practical nurse (LPN),335-80-8240
+35,Eleonore McOrkill,Registered nurse (RN),308-67-4991
+36,Annetta Ingerman,Advanced practice registered nurses (APRNs),805-32-4910
+37,Elita Sire,Advanced practice registered nurses (APRNs),287-32-8909
+38,Boone Yexley,Advanced practice registered nurses (APRNs),670-67-7951
+39,Cam Bewley,Registered nurse (RN),464-11-4779
+40,Fredric Strippel,Registered nurse (RN),639-30-8944
+41,Bobbi Klasing,Nursing assistant (CNA),282-55-5445
+42,Zed Orpen,Registered nurse (RN),754-71-4906
+43,Godfrey Emmanuele,Licensed practical nurse (LPN),414-36-1092
+44,Hallsy Swinfen,Registered nurse (RN),458-49-3319
+45,Mata Stuck,Licensed practical nurse (LPN),364-59-7337
+46,Linnell Schirak,Nursing assistant (CNA),873-49-4243
+47,Lorraine Lynn,Nursing assistant (CNA),638-04-6431
+48,Cross Dumphrey,Nursing assistant (CNA),639-01-9268
+49,Aeriell Tebbe,Advanced practice registered nurses (APRNs),748-46-4599
+50,Madlin Silberschatz,Advanced practice registered nurses (APRNs),825-59-8291
+51,Lauritz Spain-Gower,Registered nurse (RN),309-70-8126
+52,Ira Rizon,Registered nurse (RN),699-38-5725
+53,Gelya Leman,Advanced practice registered nurses (APRNs),312-93-0217
+54,Galvin Ghidelli,Advanced practice registered nurses (APRNs),351-37-9675
+55,Hinda Lumsdale,Registered nurse (RN),737-45-6588
+56,Kat Vaugham,Nursing assistant (CNA),143-26-4388
+57,Wilbert Janton,Licensed practical nurse (LPN),539-45-3636
+58,Codee Murdy,Advanced practice registered nurses (APRNs),790-93-6411
+59,Nils Cogdon,Advanced practice registered nurses (APRNs),841-68-0210
+60,Tann Duffield,Registered nurse (RN),224-78-5621
+61,Obie Hagan,Registered nurse (RN),125-04-9314
+62,Derril Johantges,Advanced practice registered nurses (APRNs),149-48-9211
+63,Abdel Piris,Licensed practical nurse (LPN),151-94-1238
+64,Laney Kingsnod,Advanced practice registered nurses (APRNs),101-82-9599
+65,Michale Quilkin,Advanced practice registered nurses (APRNs),616-67-3278
+66,Lucita Danett,Registered nurse (RN),173-66-7288
+67,Lodovico Ramsby,Nursing assistant (CNA),464-42-3454
+68,Con Gummary,Licensed practical nurse (LPN),198-26-0232
+69,Mabelle Dreus,Advanced practice registered nurses (APRNs),257-22-3375
+70,Sabina O' Markey,Advanced practice registered nurses (APRNs),563-55-8625
+71,Rosalind Ivoshin,Registered nurse (RN),599-08-5829
+72,Brietta Jovey,Licensed practical nurse (LPN),480-81-7890
+73,Maddie Raynton,Registered nurse (RN),573-78-4034
+74,Fayina Goodenough,Advanced practice registered nurses (APRNs),277-90-5530
+75,Hollie Stranger,Licensed practical nurse (LPN),599-71-6701
+76,Ardys Doddridge,Nursing assistant (CNA),162-05-4918
+77,Whitney Rubenovic,Licensed practical nurse (LPN),297-87-2893
+78,Kalina De Blasi,Registered nurse (RN),292-98-0062
+79,Agnese Worlock,Advanced practice registered nurses (APRNs),328-81-3122
+80,Bennie Martinets,Advanced practice registered nurses (APRNs),151-13-7278
+81,Crystie Winterson,Nursing assistant (CNA),321-63-0173
+82,Moritz Rabb,Licensed practical nurse (LPN),551-79-7602
+83,Eal Beckers,Advanced practice registered nurses (APRNs),867-88-2506
+84,Cointon Tordoff,Licensed practical nurse (LPN),787-05-3549
+85,Lottie Hovard,Licensed practical nurse (LPN),524-87-0079
+86,Aida Bubb,Licensed practical nurse (LPN),209-36-4022
+87,Maje Warcup,Nursing assistant (CNA),648-69-3149
+88,Alick Burton,Advanced practice registered nurses (APRNs),751-91-6020
+89,Cindee Baldoni,Nursing assistant (CNA),723-30-8404
+90,Delores Churchyard,Registered nurse (RN),344-50-2829
+91,Lyle Byforth,Nursing assistant (CNA),345-74-5554
+92,Zoe Raffles,Registered nurse (RN),727-88-9563
+93,Godfrey Risso,Nursing assistant (CNA),850-43-1312
+94,Evangelia Elie,Nursing assistant (CNA),876-75-5272
+95,Carrie Chauvey,Registered nurse (RN),498-69-9925
+96,Fancie Peaden,Licensed practical nurse (LPN),499-58-7876
+97,Danni Symers,Nursing assistant (CNA),767-19-5603
+98,Berte Iacobacci,Advanced practice registered nurses (APRNs),359-70-0421
+99,Albina Riddle,Licensed practical nurse (LPN),604-35-4470
+100,Gladys Matasov,Advanced practice registered nurses (APRNs),327-96-3028
+101,Conchita Mussared,Advanced practice registered nurses (APRNs),369-96-6418
+102,Ricki Berrisford,Licensed practical nurse (LPN),180-22-7128
+103,Antonie Castiglioni,Advanced practice registered nurses (APRNs),601-46-3174
+104,Adelle Defau,Nursing assistant (CNA),484-02-9151
+105,Rozalin Cardiff,Licensed practical nurse (LPN),849-02-2092
+106,Berkly Tedstone,Registered nurse (RN),590-71-1205
+107,Fraze Lankham,Licensed practical nurse (LPN),723-42-5279
+108,Coralie Austwick,Licensed practical nurse (LPN),549-22-4050
+109,Mauricio Germaine,Licensed practical nurse (LPN),545-57-6179
+110,Rosella Bowdrey,Nursing assistant (CNA),277-86-4619
+111,Cissy Kitching,Licensed practical nurse (LPN),726-19-4961
+112,Sallie Berardt,Advanced practice registered nurses (APRNs),441-51-9308
+113,Jolie McGourty,Nursing assistant (CNA),854-30-3776
+114,Brander Whinney,Nursing assistant (CNA),608-98-4343
+115,Derron Bust,Advanced practice registered nurses (APRNs),303-57-0106
+116,Nikoletta Bowra,Licensed practical nurse (LPN),148-67-6164
+117,Alexi Thomassen,Registered nurse (RN),214-05-6810
+118,Homere Gaines,Advanced practice registered nurses (APRNs),363-50-7272
+119,Garvey Closs,Nursing assistant (CNA),467-98-3708
+120,Britteny Jerrans,Licensed practical nurse (LPN),516-83-0311
+121,Willis Bramford,Licensed practical nurse (LPN),786-62-5313
+122,Benton Casetta,Advanced practice registered nurses (APRNs),288-64-8220
+123,Jordain Gallatly,Nursing assistant (CNA),752-44-1638
+124,Meridith Garci,Licensed practical nurse (LPN),348-81-2315
+125,Martita Berre,Registered nurse (RN),683-52-3320
+126,Amargo Golson,Advanced practice registered nurses (APRNs),524-39-0396
+127,Betti MacDearmaid,Advanced practice registered nurses (APRNs),510-04-0124
+128,Wilden Denham,Licensed practical nurse (LPN),659-75-0369
+129,Haze Bill,Registered nurse (RN),399-10-7255
+130,Chastity Starte,Registered nurse (RN),187-02-1683
+131,Birdie Abercromby,Nursing assistant (CNA),189-02-4253
+132,Peggi Tillyer,Registered nurse (RN),734-99-0246
+133,Caren Greenall,Licensed practical nurse (LPN),203-89-6054
+134,Tannie Dacres,Registered nurse (RN),540-28-3514
+135,Wendie Deval,Advanced practice registered nurses (APRNs),651-41-3000
+136,Viviene Kitcher,Licensed practical nurse (LPN),560-92-9272
+137,Ailey Scambler,Licensed practical nurse (LPN),755-31-5396
+138,Claudine Beany,Advanced practice registered nurses (APRNs),291-52-2690
+139,Harriot Bewshire,Advanced practice registered nurses (APRNs),883-48-4678
+140,Simonne Trebilcock,Licensed practical nurse (LPN),404-74-4623
+141,Park Denerley,Registered nurse (RN),617-37-9890
+142,Tonnie McNae,Licensed practical nurse (LPN),323-44-2790
+143,Bernadette Rayson,Registered nurse (RN),285-55-4498
+144,Emyle Milier,Nursing assistant (CNA),331-93-0367
+145,Enriqueta MacSorley,Nursing assistant (CNA),807-75-7384
+146,Edy Hymer,Licensed practical nurse (LPN),504-39-9822
+147,Jo-ann Heathorn,Licensed practical nurse (LPN),352-20-2665
+148,Catie Ricket,Nursing assistant (CNA),470-06-2084
+149,Marijo Bricksey,Registered nurse (RN),812-23-5658
+150,Imogen Paddington,Advanced practice registered nurses (APRNs),570-74-9420
+151,Travers Shellard,Registered nurse (RN),499-59-7872
+152,Ermanno Vondrak,Nursing assistant (CNA),328-63-3393
+153,Nathaniel Barrett,Advanced practice registered nurses (APRNs),311-10-9478
+154,Balduin Hamley,Licensed practical nurse (LPN),606-12-0428
+155,Rozalie Grigoryev,Registered nurse (RN),618-79-7885
+156,Sean Roelofsen,Nursing assistant (CNA),537-97-2594
+157,Guntar Breton,Advanced practice registered nurses (APRNs),105-09-8069
+158,Alexina Deerr,Advanced practice registered nurses (APRNs),247-11-9391
+159,Allard Rohlfing,Registered nurse (RN),626-20-1079
+160,Philis Pegler,Licensed practical nurse (LPN),255-18-7794
+161,Tobye Embury,Licensed practical nurse (LPN),792-14-7842
+162,Sarene Stagge,Nursing assistant (CNA),249-18-0901
+163,Ernest Josilevich,Licensed practical nurse (LPN),809-29-1695
+164,Tully Aspinal,Nursing assistant (CNA),324-64-5358
+165,Debbi Mosedill,Registered nurse (RN),623-86-3049
+166,Faun Oldroyde,Licensed practical nurse (LPN),479-23-2641
+167,Arabel Rivelon,Nursing assistant (CNA),427-03-9706
+168,David Landa,Nursing assistant (CNA),478-32-6853
+169,Tiffany Leveret,Registered nurse (RN),477-98-9280
+170,Nerita Downage,Registered nurse (RN),826-55-0135
+171,Manny Hayden,Registered nurse (RN),138-75-6075
+172,Muriel Clere,Nursing assistant (CNA),383-23-3750
+173,Sigmund Pagitt,Advanced practice registered nurses (APRNs),383-31-1809
+174,Xena Brightling,Licensed practical nurse (LPN),472-76-5390
+175,Janith Gunderson,Registered nurse (RN),727-70-7836
+176,Wallie Pavlenko,Nursing assistant (CNA),340-98-0250
+177,Son Wasling,Advanced practice registered nurses (APRNs),335-71-3773
+178,Danny Juszczyk,Nursing assistant (CNA),496-62-8639
+179,Bernice Matiewe,Advanced practice registered nurses (APRNs),367-80-3431
+180,Stoddard Riddich,Advanced practice registered nurses (APRNs),113-88-4259
+181,Dacey Tuke,Registered nurse (RN),648-87-9992
+182,Libbie Dewes,Advanced practice registered nurses (APRNs),167-60-8781
+183,Nickolaus Sabbatier,Nursing assistant (CNA),235-95-5415
+184,Jessie Brikner,Licensed practical nurse (LPN),673-17-7999
+185,Aridatha Andrini,Registered nurse (RN),394-90-8249
+186,Darda Flacknoe,Licensed practical nurse (LPN),477-78-3940
+187,Rabi Hartles,Nursing assistant (CNA),826-90-3949
+188,Aimee Bourke,Registered nurse (RN),404-60-8998
+189,Twyla Myring,Advanced practice registered nurses (APRNs),395-41-8207
+190,Vail Limon,Nursing assistant (CNA),595-63-1188
+191,Vincent Inkles,Licensed practical nurse (LPN),796-39-7749
+192,Lissie Oades,Licensed practical nurse (LPN),658-85-5673
+193,Leanna Gallaccio,Advanced practice registered nurses (APRNs),777-81-9282
+194,Christel Jessope,Registered nurse (RN),431-73-5234
+195,Susanne Yakuntzov,Advanced practice registered nurses (APRNs),198-51-4998
+196,Derril Berringer,Advanced practice registered nurses (APRNs),273-19-0017
+197,Sally Stapylton,Registered nurse (RN),537-74-7278
+198,Gustave Ivan,Registered nurse (RN),268-57-6008
+199,Myrle Casseldine,Registered nurse (RN),793-32-1594
+200,Rivkah Costello,Licensed practical nurse (LPN),113-10-3048
