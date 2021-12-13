@@ -34,13 +34,14 @@ CREATE TABLE IF NOT EXISTS trained_in (
 );
 
 CREATE TABLE IF NOT EXISTS patient (
+  id serial NOT NULL,
   ssn varchar(50) NOT NULL,
   name varchar(50) NOT NULL,
   address varchar(100) NOT NULL,
   phone varchar(50) NOT NULL,
   insurance_id integer NOT NULL,
   pcp integer REFERENCES physician(employee_id),
-  PRIMARY KEY (ssn)
+  PRIMARY KEY (id)
 );
 
 CREATE TABLE IF NOT EXISTS nurse (
@@ -53,7 +54,7 @@ CREATE TABLE IF NOT EXISTS nurse (
 
 CREATE TABLE IF NOT EXISTS appointment (
   appointment_id integer NOT NULL,
-  patient varchar(50) REFERENCES patient(ssn),
+  patient integer REFERENCES patient(id),
   prep_nurse integer REFERENCES nurse(employee_id),
   physician integer REFERENCES physician(employee_id),
   start_time timestamp NOT NULL,
@@ -72,7 +73,7 @@ CREATE TABLE IF NOT EXISTS medication (
 
 CREATE TABLE IF NOT EXISTS prescribes (
   physician integer REFERENCES physician(employee_id),
-  patient varchar(50) REFERENCES patient(ssn),
+  patient integer REFERENCES patient(id),
   medication integer REFERENCES medication(code),
   date timestamp NOT NULL,
   appointment integer REFERENCES appointment(appointment_id),
@@ -96,13 +97,12 @@ CREATE TABLE IF NOT EXISTS room (
 CREATE TABLE IF NOT EXISTS on_call (
   nurse integer REFERENCES nurse(employee_id),
   block_floor_code integer REFERENCES block(block_id),
-  start_time timestamp NOT NULL,
-  end_time timestamp NOT NULL
+  physician integer REFERENCES physician(employee_id)
 );
 
 CREATE TABLE IF NOT EXISTS stay (
   stay_id integer NOT NULL,
-  patient varchar(50) REFERENCES patient(ssn),
+  patient integer REFERENCES patient(id),
   room integer REFERENCES room(number),
   start_time timestamp NOT NULL,
   end_time timestamp NOT NULL,
@@ -110,10 +110,9 @@ CREATE TABLE IF NOT EXISTS stay (
 );
 
 CREATE TABLE IF NOT EXISTS undergoes  (
-  patient varchar(50) REFERENCES patient(ssn),
+  patient integer REFERENCES patient(id),
   procedure integer REFERENCES procedure(code),
   stay integer REFERENCES stay(stay_id),
-  date timestamp NOT NULL,
   physician integer REFERENCES physician(employee_id),
   assisting_nurse integer REFERENCES nurse(employee_id)
 );
