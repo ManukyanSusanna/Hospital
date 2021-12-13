@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-central-1",
+      "eventTime": "2021-12-09T13:26:12.425Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AF8HCWV4QVNA5"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "46.71.231.255"
+      },
+      "responseElements": {
+        "x-amz-request-id": "50W50WR65284FZP6",
+        "x-amz-id-2": "eyXGZMZqQA0fElRQJR+oQ9SBm5v12UfFseL+NgMJR5pZbNi3LslCjMPZh0OI58gJ/4N901Kdk5+pIS4eKsIjKEY8xN04HbgY"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "S3ObjectsToRDS",
+        "bucket": {
+          "name": "hosptalstaticcsv",
+          "ownerIdentity": {
+            "principalId": "AF8HCWV4QVNA5"
+          },
+          "arn": "arn:aws:s3:::hosptalstaticcsv"
+        },
+        "object": {
+          "key": "physician_table.csv",
+          "size": 456,
+          "eTag": "22d3c886fec26e40a7a73c2a265b850d",
+          "sequencer": "0061B203F455CA956E"
+        }
+      }
+    }
+  ]
+}
