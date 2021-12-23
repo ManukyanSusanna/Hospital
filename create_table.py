@@ -56,13 +56,13 @@ def execute_query(connection, query):
 #
 # drop_patient = "DROP TABLE patient CASCADE"
 # execute_query(connection, drop_patient)
-#
+
 # drop_nurse = "DROP TABLE nurse CASCADE"
 # execute_query(connection, drop_nurse)
-#
+
 # drop_appointment = "DROP TABLE appointment CASCADE"
 # execute_query(connection, drop_appointment)
-#
+
 # drop_medication = "DROP TABLE medication CASCADE"
 # execute_query(connection, drop_medication)
 #
